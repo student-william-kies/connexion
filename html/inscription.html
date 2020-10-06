@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   </head>
   <body>
-
     <!-- Header -->
     <header>
       <nav>
@@ -18,103 +17,101 @@
       </nav>
       <a class="nav-contact" href="#"><button>CONTACT</button></a>
     </header>
-
     <!-- Main -->
     <main>
       <section class="main-info-section">
         <article>
-            <!-- Formulaire Sign Up -->
-            <section class="form-signup-section">
-              <form action="../connexion.html" method="post">
-                <section>
-                  <label for="sign-up" id="signup">S'inscrire</label>
-                </section>
-                <section>
-                  <p id="text-info-form-signup">(Les sections marquées * sont obligatoire)</p>
-                </section>
-                <!-- Input d'inscription -->
-                <section class="input-info">
-                  <label for="login">Login*: </label>
-                  <br>
-                  <input type="text" name="login" placeholder="Login" class="input-log" required>
-                  <br>
-                  <label for="mdp">Mot de passe*: </label>
-                  <br>
-                  <input type="password" name="mdp" placeholder="Mot de passe" class="input-log" required>
-                  <br>
-                  <input type="password" name="cmdp" placeholder="Confirmer le mot de passe" class="input-log" required>
-                  <br>
-                  <label for="date">Date de naissance*: </label>
-                  <br>
-                  <input type="date" name="date-naissance" class="input-log" required>
-                  <br>
-                  <label for="nom">Nom*: </label>
-                  <br>
-                  <input type="text" name="nom" placeholder="Votre nom" class="input-log" required>
-                  <br>
-                  <label for="prenom">Prénom*: </label>
-                  <br>
-                  <input type="text" name="prenom" placeholder="Votre prénom" class="input-log" required>
-                  <br>
-                  <label for="mail">Adresse mail*: </label>
-                  <br>
-                  <input type="email" name="mail" placeholder="Votre adresse email" class="input-log" required>
-                  <br>
-                  <label for="genre">Vous êtes*: </label>
-                  <br>
-                  <input type="radio" name="sex" value="homme" required> Homme
-                  <input type="radio" name="sex" value="femme" required> Femme
-                  <br>
-                  <label for="school">Niveau d'étude*: </label>
-                  <br>
-                  <select name="school" id="select-etude" class="input-log" required>
-                    <option value="">Selectionner votre niveau</option>
-                    <option value="bac2">Bac +2</option>
-                    <option value="bac3">Bac +3</option>
-                    <option value="bac4">Bac +4</option>
-                    <option value="bac5">Bac +5</option>
-                    <option value="bac5plus">Bac +5 et plus</option>
-                  </select>
-                  <br>
-                  <label for="number">Téléphone: </label>
-                  <br>
-                  <input type="tel" name="phone" class="input-log">
-                  <br>
-                  <label for="presentation">Présentation: </label>
-                  <br>
-                  <textarea name="presentation" rows="8" cols="80" placeholder="Présentez vous en quelques lignes..."></textarea>
-                  <br>
-                  <label for="hobby">Vos hobbies: </label>
-                  <br>
-                  <input type="checkbox" name="sport">
-                  <label for="sport">Sport</label>
-                  <br>
-                  <input type="checkbox" name="voyage">
-                  <label for="voyage">Voyage, culture</label>
-                  <br>
-                  <input type="checkbox" name="strategie">
-                  <label for="strategie">Jeux stratégiques</label>
-                  <br>
-                  <input type="checkbox" name="jeux">
-                  <label for="jeux">Jeux vidéos</label>
-                  <br>
-                  <input type="checkbox" name="plante">
-                  <label for="plante">Planter</label>
-                </section>
-                <!-- Button Sign Up -->
-                <section class="button-signup">
+          <!-- Formulaire Sign Up -->
+          <section class="form-signup-section">
+            <form action="../connexion.html" method="post">
+              <section>
+                <label for="sign-up" id="signup">S'inscrire</label>
+              </section>
+              <section>
+                <p id="text-info-form-signup">(Les sections marquées * sont obligatoire)</p>
+              </section>
+              <!-- Input d'inscription -->
+              <section class="input-info">
+                <label for="login">Login*: </label>
+                <br>
+                <input type="text" name="login" placeholder="Login" class="input-log" required>
+                <br>
+                <label for="mdp">Mot de passe*: </label>
+                <br>
+                <input type="password" name="mdp" placeholder="Mot de passe" class="input-log" required>
+                <br>
+                <input type="password" name="cmdp" placeholder="Confirmer le mot de passe" class="input-log" required>
+                <br>
+                <label for="date">Date de naissance*: </label>
+                <br>
+                <input type="date" name="date-naissance" class="input-log" required>
+                <br>
+                <label for="nom">Nom*: </label>
+                <br>
+                <input type="text" name="nom" placeholder="Votre nom" class="input-log" required>
+                <br>
+                <label for="prenom">Prénom*: </label>
+                <br>
+                <input type="text" name="prenom" placeholder="Votre prénom" class="input-log" required>
+                <br>
+                <label for="mail">Adresse mail*: </label>
+                <br>
+                <input type="email" name="mail" placeholder="Votre adresse email" class="input-log" required>
+                <br>
+                <label for="genre">Vous êtes*: </label>
+                <br>
+                <input type="radio" name="sex" value="homme" required> Homme
+                <input type="radio" name="sex" value="femme" required> Femme
+                <br>
+                <label for="school">Niveau d'étude*: </label>
+                <br>
+                <select name="school" id="select-etude" class="input-log" required>
+                  <option value="">Selectionner votre niveau</option>
+                  <option value="bac2">Bac +2</option>
+                  <option value="bac3">Bac +3</option>
+                  <option value="bac4">Bac +4</option>
+                  <option value="bac5">Bac +5</option>
+                  <option value="bac5plus">Bac +5 et plus</option>
+                </select>
+                <br>
+                <label for="number">Téléphone: </label>
+                <br>
+                <input type="tel" name="phone" class="input-log">
+                <br>
+                <label for="presentation">Présentation: </label>
+                <br>
+                <textarea name="presentation" rows="8" cols="80" placeholder="Présentez vous en quelques lignes..."></textarea>
+                <br>
+                <label for="hobby">Vos hobbies: </label>
+                <br>
+                <input type="checkbox" name="sport">
+                <label for="sport">Sport</label>
+                <br>
+                <input type="checkbox" name="voyage">
+                <label for="voyage">Voyage, culture</label>
+                <br>
+                <input type="checkbox" name="strategie">
+                <label for="strategie">Jeux stratégiques</label>
+                <br>
+                <input type="checkbox" name="jeux">
+                <label for="jeux">Jeux vidéos</label>
+                <br>
+                <input type="checkbox" name="plante">
+                <label for="plante">Planter</label>
+              </section>
+              <!-- Button Sign Up -->
+              <section class="button-signup">
                 <button type="submit" id="btn-signup">S'inscrire</button>
-                </section>
-                <!-- Sign In  -->
-                <section class="bottom-signup-section">
-                  <a href="../connexion.html" class="other-button">Se connecter</a>
-                </section>
-              </form>
-            </section>
+              </section>
+              <!-- Sign In  -->
+              <section class="bottom-signup-section">
+                <a href="../connexion.html" class="other-button">Se connecter</a>
+              </section>
+            </form>
+          </section>
         </article>
       </section>
     </main>
-
     <!-- footer -->
     <footer>
       <section class="footer-container">
@@ -122,10 +119,10 @@
           <h1>Réseaux</h1>
           <section class="border"></section>
           <section class="social-media">
-            <a href="https://www.facebook.com/william.kies04/"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com/william_ksii"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/william_ksii/?hl=fr"><i class="fab fa-instagram"></i></a>
-            <a href="https://github.com/william-kies"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/william.kies04/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/william_ksii" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/william_ksii/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/william-kies" target="_blank"><i class="fab fa-github"></i></a>
           </section>
           <p>© 2020 Created by William Kies.</p>
         </section>

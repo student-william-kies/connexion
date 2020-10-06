@@ -126,6 +126,10 @@ li, a, button{
   margin-left: 5px;
 }
 
+.other-button:hover{
+  color: #26272c;
+}
+
 .bottom-info-section{
   margin-top: 100px;
   margin-bottom: -30px;
@@ -211,6 +215,13 @@ label{
 
 .input-info, input{
   text-align: center;
+}
+
+/* PAGE MOT DE PASSE OUBLIE */
+
+#text-mdp-forget{
+  color: grey;
+  font-size: 14px;
 }
 
 /* FOOTER */
